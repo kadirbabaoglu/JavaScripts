@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+.tab-menu{
+    
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 350;
+    height: 50;
+    background-color: aquamarine;
+}
+
+.tab-menu li{
+    float: left;
+    padding: 5px 10px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+   
+}
+
+.tab-menu li.active{
+    color: brown;
+}
+
+.tab-menu li:hover{
+    color: rgb(230, 175, 23);
+    border-top: 1px solid rgb(230, 175, 23);
+}
+
+.tab-menu-content{
+    height: 500px;
+    padding-top: 10px;
+}
+
+.tab-menu-content div{
+    padding: 10px;
+    height: 100px;
+    width: 350px;
+    background-color: rgb(231, 212, 70);
+}
